@@ -4,7 +4,7 @@
   "description": "primer proyecto univ austral",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "dev": "lite-server"
   },
   "repository": {
