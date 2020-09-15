@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="styles/main.css">
     <title>Guia Hoteles</title>
   </head>
@@ -18,20 +19,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./about.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./WebCheckIn.html">Web Check In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./precios.html">Precios</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Legales
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Precios</a>
-                <a class="dropdown-item" href="#">Terminos y Condiciones</a>
+                <a class="dropdown-item" href="./terminos.html">Terminos y Condiciones</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Opiniones</a>
+                <a class="dropdown-item" href="./opiniones.html">Opiniones</a>
               </div>
             </li>
         </ul>
@@ -167,7 +173,9 @@
                       <h5>Aprendemos Con</h5>
                       <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="#">Ezequiel Lamonica</a></li>
-                        <li><a class="text-muted" target="_blank"href="https://getbootstrap.com/">Bootstrap</a></li>
+                        <li><a class="text-muted" target="_blank"href="https://getbootstrap.com/"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bootstrap-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+                          </svg> Bootstrap</a></li>
                         <li><a class="text-muted" target="_blank"href="https://www.coursera.org/programs/gobierno-de-la-ciudad-de-buenos-aires-on-coursera-hzwlw">Courseraba</a></li>
                       </ul>
                     </div>
@@ -185,11 +193,13 @@
                       <div class="address">
                         <address>
                           <strong>Jorge Gabriel Rambaut</strong><br />
-                          French 2881<br />
+                          <span class="oi oi-home"></span> French 2881<br/>
                           CABA<br />
-                          <abbr title="Phone">Tel:</abbr> (15) 3488-1909
+                          <span class="oi oi-phone"></span>
+                          <abbr title="Phone"> Tel:</abbr> (15) 3488-1909
                         </address>
                         <address>
+                          <span class="oi oi-envelope-closed"></span>
                           <strong>Contacto</strong><br />
                           <a href="mailto:jgrambaut@gmail.com">jgrambaut@gmail.com</a>
                         </address>

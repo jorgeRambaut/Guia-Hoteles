@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/webCheckIn.css">
     <title>Guia Hoteles</title>
   </head>
 
@@ -21,7 +22,7 @@
         <li class="nav-item ">
           <a class="nav-link" href="./index.html">Home </a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="./about.html">Nosotros<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item ">
@@ -37,7 +38,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="./terminos.html">Terminos y Condiciones</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="./opiniones.html">Opiniones</a>
+            <a class="dropdown-item active" href="./opiniones.html">Opiniones</a>
           </div>
         </li>
     </ul>
@@ -54,28 +55,74 @@
           <p>Las Mejores reviews Hoteleras </p>
       </div>
 
+
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item "><a href="./index.html">Home</a></li>
-              <li class="breadcrumb-item active"><a>Nosotros</a></li>
+              <li class="breadcrumb-item active"><a>Opiniones</a></li>
             </ol>
           </nav>
-          <span>
-            <p>
-              Lorem Ipsum es simplemente texto de relleno de la industria de la impresión y
-              la composición tipográfica. Lorem Ipsum ha sido el texto
-              de relleno estándar de la industria desde la década de 1500, cuando un
-              impresor desconocido tomó una galera de tipos y la mezcló para hacer un
-              libro de muestras tipográfico. Ha sobrevivido no solo a cinco siglos,
-              sino también al salto a la composición tipográfica electrónica,
-              permaneciendo esencialmente sin cambios. Se popularizó en la
-              década de 1960 con el lanzamiento de hojas de Letraset que
-              contienen pasajes de Lorem Ipsum y, más recientemente,
-              con software de autoedición como Aldus PageMaker
-              que incluye versiones de Lorem Ipsum.
-            </p>
-          </span>
-      </div><!--container-->
+
+          <div class="abs-center">
+            <form action="mailto:ventas@hjpalermo.com.ar" method="post" enctype="text/plain">
+                 <fieldset class="form-row col ml-1" >
+                   <legend>Dejanos Tu Opinion</legend>
+                   <div class="form-row">
+                     <div class="form-group">
+                       <label for="inputname">Apellido</label>
+                       <input type="text" class="form-control" id="inputlastname">
+                     </div>
+                     <div class="form-group col">
+                       <label for="inputname">Nombre</label>
+                       <input type="text" class="form-control" id="inputname">
+                     </div>
+                   </div>
+                   <div class="form-row">
+                     <div class="form-group col">
+                       <label for="inputemail">E-Mail</label>
+                       <input type="Mail" class="form-control" id="inputemail">
+                     </div>
+                   </div>
+
+                   <div class="form-group col">
+                     <label for="Request">Observaciones</label>
+                     <textarea class="form-control" id="Request" rows="3"></textarea>
+                   </div>
+                   <fieldset>
+                     <legend>Estrellas</legend>
+                       <div class="custom-control custom-radio custom-control-inline">
+                           <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio1">1</label>
+                          </div>
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio2">2</label>
+                          </div>
+                          <div class="custom-control custom-radio">
+                           <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                           <label class="custom-control-label" for="customRadio3">3</label>
+                         </div>
+                         <div class="custom-control custom-radio">
+                           <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+                           <label class="custom-control-label" for="customRadio4">4</label>
+                         </div>
+                         <div class="custom-control custom-radio">
+                           <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+                           <label class="custom-control-label" for="customRadio5">5</label>
+                         </div>
+                       </div>
+                   </fieldset>
+                   <input class="form-check-input" type="checkbox" value="" id="recordarDatos">
+                      <label class="form-check-label" for="recordarDatos">
+                        Recordar mis datos
+                      </label>
+                   <div class="form-group col">
+                   <button type="submit" class="btn btn-primary">Enviar</button>
+                   </div>
+              </div>
+             </form>
+            </div>
 
       <footer class="container">
                 <div class="row">
