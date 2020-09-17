@@ -59,38 +59,95 @@
           <li class="breadcrumb-item active"><a>Home</a></li>
         </ol>
       </nav>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <p>
-              <h3>Opinar</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea </p>
-            </p>
-          </div>
-          <div class="col-sm-4">
-            <p>
-              <h3>Crear Usuario</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea </p>
-            </p>
-          </div>
-          <div class="col-sm-4">
-            <p>
-              <h3>Sobre Nosotros</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea
-              </p>
-            </p>
-          </div>
-          <!--row-->
+      <!-- Button trigger modal -->
+      <div class="row">
+        <div class="col-sm-4">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Opinar">
+            Como Opinar
+          </button>
         </div>
+        <div class="col-sm-4">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Funciona">
+            Como Funciona
+          </button>
+        </div>
+        <div class="col-sm-4">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Pago">
+            Como Pago
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal -->
+        <div class="modal fade" id="Opinar" tabindex="-1" aria-labelledby="Opinion" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="Opinion">Opinar</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="Funciona" tabindex="-1" aria-labelledby="Funcion" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="Funcion">Como Funciona</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="Pago" tabindex="-1" aria-labelledby="Pagos" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="Pagos">Pago</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
 
         <div class="d-flex flex-wrap">
         <div class="col-xs-2 d-flex flex-column justify-content-between">
